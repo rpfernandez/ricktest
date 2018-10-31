@@ -1,0 +1,4 @@
+sudo waagent -deprovision+user -force
+az vm deallocate
+az vm generalize
+az image create
